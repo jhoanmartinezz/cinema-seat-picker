@@ -16,6 +16,11 @@ body{
     font-family: "Lato", sans-serif;
 }
 
+.container{
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
+
 .movie-container{
     padding: 20px 0;
 }
@@ -91,4 +96,21 @@ body{
 
 .showCase li small{
     margin-left: 2px;
+}
+
+.screen{
+    height: 70px;
+    width: 100%;
+    background: #fff;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+.text span{
+    color: #6feaf6;
+}
+
+.text{
+    margin: 5px 0;
 }
